@@ -7,8 +7,6 @@ import Home from './pages/Home';
 import theme from './theme';
 
 function App() {
-  console.log(window.location.href);
-
   return (
     <ThemeProvider theme={theme}>
       <BrowserRouter>
