@@ -2,9 +2,11 @@ import React from 'react';
 import { ThemeProvider } from '@material-ui/core/styles';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import SignIn from './pages/Signin';
+import SignIn from './pages/SignIn';
 import Home from './pages/Home';
 import theme from './theme';
+
+import './mock';
 
 function App() {
   return (
